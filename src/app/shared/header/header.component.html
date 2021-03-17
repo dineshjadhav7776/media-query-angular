@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="">Media Query</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+                <a class="nav-link" routerLink='' routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item " *ngIf="userProfile">
+                <a class="nav-link" routerLink="/gallery-view" routerLinkActive="active">Gallery</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item " *ngIf="!userProfile">
+                <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+            </li>
+            <li class="nav-item " *ngIf="userProfile">
+                <a class="nav-link" (click)="onConfirmLogout()">Log out</a>
+            </li>
+            <li class="" *ngIf="userProfile">
+                <a>
+                    <img style="width: 45px;" class="img-profile rounded-circle"
+                        src="./assets/img/default-avatar.png" />
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                        <b>{{ userProfile[0].firstName + " " +
+                            userProfile[0].lastName }}<br /></b>
+                    </span>
+                </a>
+                <!-- Dropdown - User Information -->
+            </li>
+        </ul>
+    </div>
+
+    <!-- Nav Item - User Information -->
+
+</nav>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Select "Logout" below if you are ready to end your current session.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                    Cancel
+                </button>
+                <button class="btn btn-primary" (click)="onLogout()">Logout</button>
+            </div>
+        </div>
+    </div>
+</div>

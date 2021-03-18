@@ -4,14 +4,14 @@
             "userId": 1,
             "firstName": "Dinesh",
             "lastName": "Jadhav",
-            "email": "admin@gmail.com",
+            "email": "dinesh@gmail.com",
             "password": "123456"
         },
         {
             "userId": 1,
-            "firstName": "Ganesh",
-            "lastName": "Jadhav",
-            "email": "jadhav@gmail.com",
+            "firstName": "Super",
+            "lastName": "Admin",
+            "email": "admin@admin.com",
             "password": "admin"
         }
     ]

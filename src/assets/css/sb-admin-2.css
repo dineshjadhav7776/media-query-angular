@@ -155,7 +155,7 @@ sup {
 }
 
 a {
-  color: #343a3f;
+  color: #f6c23e;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6427,6 +6427,7 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 
 .justify-content-around {
   justify-content: space-around !important;
+  justify-content: space-around!important;
 }
 
 .align-items-start {
@@ -9923,7 +9924,7 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("../img/bg-login.jpg");
+  background: url("../images/team5.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -10642,12 +10643,12 @@ h6.link-title {
 
 .notification-title {
   font-size: 1rem;
-  color: #343a3f;
+  color: #0e7bd4;
   font-weight: 600;
 }
 
 .main-notification-sub-title {
-  color: #858796;
+  color: #ca5f2e;
   font-size: 13px;
 }
 
@@ -10685,5 +10686,5 @@ label.d-input-flex {
 }
 
 button.btn.btn-primary.btn-user.btn-block.login-button:hover {
-  background: #343a3f !important;
+  background: #044070 !important;
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxGalleryAnimation, NgxGalleryImage, NgxGalleryOptions } from '@kolkov/ngx-gallery';
 
 @Component({
   selector: 'app-gallary-view',
@@ -11,5 +12,6 @@ export class GallaryViewComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
+
+

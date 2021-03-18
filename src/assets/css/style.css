@@ -22,9 +22,9 @@ body a {
     font-family: 'Dosis', sans-serif;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: none;
-}
+} */
 
 input[type="button"], input[type="submit"], input[type="text"], input[type="email"], input[type="search"] {
     transition: 0.5s all;
@@ -69,7 +69,7 @@ ul {
 a.navbar-brand {
     font-size: 2.5em;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
-    color: #fff;
+    color: rgb(231, 24, 24);
     text-transform: uppercase;
     margin: 0;
 }
@@ -77,7 +77,7 @@ a.navbar-brand {
 a.navbar-brand span {
     display: block;
     font-weight: 600;
-    color: #fff;
+    color: rgb(206, 124, 47);
     font-size: 14px;
     line-height: normal;
     text-transform: uppercase;
@@ -336,9 +336,9 @@ ul.author li span {
     display: inline-block
 }
 
-.box16 .social li a:hover {
+/* .box16 .social li a:hover {
     background: #007cc0;
-}
+} */
 
 .box16 .social li:last-child a {
     margin-right: 0
@@ -430,7 +430,7 @@ ul.list-unstyled li {
 
 a.hover-2.btn {
     border: 2px solid #ffc107;
-    color: #444;
+    color: rgb(34, 52, 214);
     padding: 0.4em 1.2em;
 }
 
@@ -596,7 +596,7 @@ p.copy-right-w3ls a {
 }
 
 p.copy-right-w3ls a:hover {
-    color: #fff;
+    color: rgb(50, 79, 206);
 }
 
 /*-- //footer --*/
@@ -791,5 +791,10 @@ p.copy-right-w3ls a:hover {
 @media(max-width:375px) {}
 
 @media(max-width:320px) {}
+
+.expore_more {
+    margin-top: 40px;
+    color: white
+}
 
 /*--//responsive--*/

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" routerLink="">Media Query</a>
+    <a class="navbar-brand" routerLink="">Media Company</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,9 @@
             <li class="" *ngIf="userProfile">
                 <a>
                     <img style="width: 45px;" class="img-profile rounded-circle"
-                        src="./assets/img/default-avatar.png" />
+                        src="./assets/images/default-avatar.png" />
                     <span class="mr-2 d-none d-lg-inline text-gray-600 small">
-                        <b>{{ userProfile[0].firstName + " " +
-                            userProfile[0].lastName }}<br /></b>
+                        <b>{{ userProfile[0].email}}</b>
                     </span>
                 </a>
                 <!-- Dropdown - User Information -->

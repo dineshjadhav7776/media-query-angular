@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
   onLogout() {
     $('#logoutModal').modal('hide');
     this.constant.clearStorage();
-    this.router.navigate(['/login']);
+    this.router.navigate(['']);
   }
 
   onConfirmLogout() {

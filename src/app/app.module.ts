@@ -10,6 +10,7 @@ import { GallaryViewComponent } from './modules/gallary-view/gallary-view.compon
 import { LoginComponent } from './modules/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 
 
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxGalleryModule
 
   ],
   providers: [],

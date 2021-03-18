@@ -18,7 +18,8 @@ export class loggedGuard implements CanActivate {
         const UserRoleInfo = localStorage.getItem('adminInfo');
 
         if (UserRoleInfo) {
-            this.router.navigate(['/']);
+            this.router.navigate(['/gallery-view']);
+            alert('You alredy logged in !');
             return false;
         } else {
             return true;

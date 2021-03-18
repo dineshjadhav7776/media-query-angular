@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GallaryViewComponent } from './gallary-view.component';
+import { GallaryViewComponent } from './gallery-view.component';
 
 describe('GallaryViewComponent', () => {
   let component: GallaryViewComponent;
@@ -8,9 +8,9 @@ describe('GallaryViewComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GallaryViewComponent ]
+      declarations: [GallaryViewComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

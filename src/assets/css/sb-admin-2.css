@@ -155,7 +155,7 @@ sup {
 }
 
 a {
-  color: #f6c23e;
+  color: #343a3f;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6427,7 +6427,6 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 
 .justify-content-around {
   justify-content: space-around !important;
-  justify-content: space-around!important;
 }
 
 .align-items-start {
@@ -10643,12 +10642,12 @@ h6.link-title {
 
 .notification-title {
   font-size: 1rem;
-  color: #0e7bd4;
+  color: #343a3f;
   font-weight: 600;
 }
 
 .main-notification-sub-title {
-  color: #ca5f2e;
+  color: #858796;
   font-size: 13px;
 }
 
@@ -10686,5 +10685,5 @@ label.d-input-flex {
 }
 
 button.btn.btn-primary.btn-user.btn-block.login-button:hover {
-  background: #044070 !important;
+  background: #343a3f !important;
 }

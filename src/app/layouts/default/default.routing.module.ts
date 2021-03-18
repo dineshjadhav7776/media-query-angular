@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from '../../modules/dashboard/dashboard.component';
 import { DefaultComponent } from '../../layouts/default/default.component';
 import { AboutComponent } from 'src/app/modules/about/about.component';
-import { GallaryViewComponent } from 'src/app/modules/gallary-view/gallary-view.component';
+import { GalleryViewComponent } from 'src/app/modules/gallery-view/gallery-view.component';
 import { LoginComponent } from 'src/app/modules/login/login.component';
 import { AuthGuard } from '../../guard/auth.guard';
 import { loggedGuard } from '../../guard/loggedIn.guard';
@@ -31,7 +31,7 @@ const Route: Routes = [
         canActivate: [AuthGuard],
         component: DefaultComponent,
         children: [
-            { path: '', component: GallaryViewComponent },
+            { path: '', component: GalleryViewComponent },
         ]
     },
     {

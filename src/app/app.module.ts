@@ -6,7 +6,7 @@ import { DefaultModule } from './layouts/default/default.module';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './modules/about/about.component';
-import { GallaryViewComponent } from './modules/gallary-view/gallary-view.component';
+import { GalleryViewComponent } from './modules/gallery-view/gallery-view.component';
 import { LoginComponent } from './modules/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -18,7 +18,7 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
   declarations: [
     AppComponent,
     AboutComponent,
-    GallaryViewComponent,
+    GalleryViewComponent,
     LoginComponent,
   ],
   imports: [
